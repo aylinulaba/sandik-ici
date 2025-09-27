@@ -1,0 +1,28 @@
+{
+  "name": "sandik-ici",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "eleventy --serve --port=8080",
+    "build": "eleventy",
+    "tina:dev": "tinacms dev",
+    "tina:build": "tinacms build",
+    "tina:start": "tinacms start"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@tinacms/cli": "^1.10.3",
+    "@types/node": "^24.5.2",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tinacms": "^2.8.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
